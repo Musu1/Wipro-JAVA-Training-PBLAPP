@@ -1,0 +1,1 @@
+select salary as "Monthly Salary",department_id as employee from employees where (salary between 5000 and 12000) and (department_id=20 or department_id=50);
